@@ -36,8 +36,18 @@
     max-width: 80%;
     background-color: white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 0 10px 2px;
+  }
+/* The start game message is the same container for questions. So, this CSS is also for the question*/
+  .start-game-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 100px;
+    margin-top: 30px;
   }
   
   .btn-grid {
@@ -80,7 +90,7 @@
     font-size: 1.8rem;
     font-weight: bold;
     padding: 10px 20px;
-    margin-top: 120px;
+    margin-top: 130px;
   }
   
   .controls {
